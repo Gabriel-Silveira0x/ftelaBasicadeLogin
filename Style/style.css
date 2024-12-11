@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #954dd6;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  width: 60vh;
+  height: 80vh;
+  padding: 61px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.container-form .form-wrapper:nth-child(4) input,
+.container-form,
+.twitter,
+.facebook {
+  border: #000 solid 3px;
+}
+
+#detalhe-titulo {
+  text-decoration: underline;
+}
+
+.container-form h2 {
+  font-weight: 450;
+  margin: 20px 0px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+
+.container-form .form-wrapper {
+  width: 80%;
+  text-align: center;
+  margin: 20px 0px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container-form .form-wrapper hr {
+  width: 100%;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto;
+}
+
+.form-wrapper:nth-child(4) input {
+  background: #954dd6;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0px 30px;
+  font-size: 28px;
+  font-weight: 500;
+  border: none;
+}
+
+.form-wrapper:nth-child(5) {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* MÍDIAS SOCIAIS */
+
+.container-midiasSociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.twitter,
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 3px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.twitter {
+  background-color: #00acee;
+}
+
+.facebook {
+  background-color: #3b5998;
+  padding: 5px 10px;
+}
+
+.container-midiasSociais .twitter img {
+  width: 70px;
+  height: 40px;
+}
+
+.container-midiasSociais .facebook img {
+  width: 70px;
+  height: 40px;
+}
